@@ -1,0 +1,30 @@
+{
+  "cidades": [
+    {
+      "id": 1,
+      "nome": "Porto Velho",
+      "estado": "Rondonia",
+      "pessoas": "500.000",
+      "crime": 56,
+      "praia": false,
+      "populacao": null,
+      "seguranca": 68
+    },
+    {
+      "id": 2,
+      "nome": "Ilhéus",
+      "estado": "Bahia",
+      "populacao": "100.00",
+      "seguranca": 69,
+      "praia": true
+    },
+    {
+      "id": 3,
+      "nome": "São Paulo",
+      "estado": "São Paulo",
+      "populacao": "12.300.000",
+      "seguranca": 39,
+      "praia": false
+    }
+  ]
+}

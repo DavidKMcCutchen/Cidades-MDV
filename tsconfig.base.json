@@ -13,9 +13,16 @@
     "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
+    "noImplicitAny": false,
+    "strictPropertyInitialization": false,
     "baseUrl": ".",
     "paths": {
-      "@cidades/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@cidades/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@cidades/core-data": ["libs/core-data/src/index.ts"],
+      "@cidades/core-state": ["libs/core-state/src/index.ts"],
+      "@cidades/material": ["libs/material/src/index.ts"],
+      "@cidades/theme": ["libs/theme/src/index.ts"],
+      "@cidades/ui-login": ["libs/ui-login/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
